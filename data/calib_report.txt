@@ -1,0 +1,59 @@
+Calibracao de camera
+pattern_size (cantos internos) = 9 x 4
+image_size = 902 x 1600
+square_size = 0.09 m
+imagens usadas = 33
+
+RMS (erro de reprojecao global) = 1.122091 px
+
+Matriz intrinseca K =
+[[1049.2555    0.      442.4933]
+ [   0.     1070.0568  921.8557]
+ [   0.        0.        1.    ]]
+
+fx = 1049.2555 px
+fy = 1070.0568 px
+cx = 442.4933 px
+cy = 921.8557 px
+
+Modelo de distorcao: 4 parametros (k3 fixado em 0)
+Coeficientes de distorcao [k1 k2 p1 p2] =
+[ 0.006155  0.097099  0.004155 -0.003296  0.      ]
+
+Erro medio por imagem (px):
+    0.5911  13.jpeg
+    0.7273  14.jpeg
+    0.9204  15.jpeg
+    0.6718  17.jpeg
+    0.7026  16.jpeg
+    0.6330  20.jpeg
+    0.7024  21.jpeg
+    0.5410  22.jpeg
+    0.5485  23.jpeg
+    0.7696  19.jpeg
+    0.6351  25.jpeg
+    0.6005  26.jpeg
+    0.5918  27.jpeg
+    3.2717  28.jpeg
+    0.6618  24.jpeg
+    0.8971  33.jpeg
+    0.5036  29.jpeg
+    0.9784  35.jpeg
+    1.4172  36.jpeg
+    0.7300  34.jpeg
+    0.8793  39.jpeg
+    0.5959  40.jpeg
+    0.5971  41.jpeg
+    0.5994  42.jpeg
+    0.5405  44.jpeg
+    0.5731  45.jpeg
+    0.5896  46.jpeg
+    0.5505  43.jpeg
+    0.7385  48.jpeg
+    0.6960  49.jpeg
+    0.8500  50.jpeg
+    0.7483  51.jpeg
+    0.7834  52.jpeg
+
+Erro medio = 0.7829 px
+Erro maximo = 3.2717 px
