@@ -1,0 +1,6 @@
+Imagens usadas na comparacao antes/depois:
+  13.jpeg
+  29.jpeg
+  52.jpeg
+
+ROI valida (x, y, w, h) = (0, 0, 901, 1599)
