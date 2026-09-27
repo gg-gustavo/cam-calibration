@@ -1,0 +1,18 @@
+Experimento 3D -> 2D
+Pontos 3D = 36 cantos do tabuleiro (quadrado 9 cm)
+image_size = 902x1600
+
+Imagem: 13.jpeg
+  (A) projecao direta      erro medio 0.591 px  max 1.292 px
+  (B) leave-one-out        erro medio 0.597 px  max 1.298 px
+
+Imagem: 29.jpeg
+  (A) projecao direta      erro medio 0.504 px  max 1.460 px
+  (B) leave-one-out        erro medio 0.508 px  max 1.466 px
+
+Imagem: 52.jpeg
+  (A) projecao direta      erro medio 0.783 px  max 1.583 px
+  (B) leave-one-out        erro medio 0.800 px  max 1.610 px
+
+Verde = cantos observados; vermelho = pontos 3D projetados.
+Figura: output/projecao_3d2d.png
