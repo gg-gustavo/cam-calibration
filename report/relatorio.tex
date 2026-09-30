@@ -3,6 +3,7 @@
 \usepackage{cite}
 \usepackage{amsmath,amssymb,amsfonts}
 \usepackage{graphicx}
+\graphicspath{{output/}{../output/}{./}}
 \usepackage{textcomp}
 \usepackage{xcolor}
 \usepackage[hidelinks]{hyperref}
@@ -124,7 +125,7 @@ tomadas a distâncias semelhantes).
 
 \begin{figure}[!t]
 \centering
-\includegraphics[width=\columnwidth]{../output/deteccao_cantos.png}
+\includegraphics[width=\columnwidth]{deteccao_cantos.png}
 \caption{Exemplo de detecção dos $9\times4$ cantos internos do tabuleiro
 (em vermelho) em uma das imagens utilizadas.}
 \label{fig:det}
@@ -164,7 +165,7 @@ paredes ficam retas, confirmando a remoção da distorção de barril.
 
 \begin{figure}[!t]
 \centering
-\includegraphics[width=\columnwidth]{../output/distorcao_antes_depois.png}
+\includegraphics[height=0.78\textheight]{distorcao_antes_depois.png}
 \caption{Remoção de distorção: à esquerda as imagens originais e à
 direita as versões corrigidas (\emph{sem distorção}).}
 \label{fig:undist}
@@ -206,14 +207,14 @@ quanto no teste \emph{leave-one-out}, praticamente iguais entre si. Isso
 mostra que a calibração é estável e que as coordenadas projetadas
 coincidem com as observadas, mesmo em imagens novas.
 
-\begin{figure}[!t]
+\begin{figure*}[!t]
 \centering
-\includegraphics[width=\columnwidth]{../output/projecao_3d2d.png}
+\includegraphics[width=0.9\textwidth]{projecao_3d2d.png}
 \caption{Pontos 3D projetados (cruzes vermelhas) sobre os cantos
 observados (círculos verdes) para três imagens, no teste
 \emph{leave-one-out}. A sobreposição é praticamente exata.}
 \label{fig:proj}
-\end{figure}
+\end{figure*}
 
 \section{Conclusão}
 
